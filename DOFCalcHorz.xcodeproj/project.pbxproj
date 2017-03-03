@@ -14,6 +14,7 @@
 		84A0E4A41E68BDCA002F313D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0E4A21E68BDCA002F313D /* LaunchScreen.storyboard */; };
 		84A0E4AF1E68BDCA002F313D /* DOFCalcHorzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0E4AE1E68BDCA002F313D /* DOFCalcHorzTests.swift */; };
 		84A0E4BA1E68BDCA002F313D /* DOFCalcHorzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0E4B91E68BDCA002F313D /* DOFCalcHorzUITests.swift */; };
+		84A0E4C81E68BE00002F313D /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0E4C71E68BE00002F313D /* AKPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84A0E4B51E68BDCA002F313D /* DOFCalcHorzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DOFCalcHorzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A0E4B91E68BDCA002F313D /* DOFCalcHorzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOFCalcHorzUITests.swift; sourceTree = "<group>"; };
 		84A0E4BB1E68BDCA002F313D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A0E4C71E68BE00002F313D /* AKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		84A0E4981E68BDCA002F313D /* DOFCalcHorz */ = {
 			isa = PBXGroup;
 			children = (
+				84A0E4C71E68BE00002F313D /* AKPickerView.swift */,
 				84A0E4991E68BDCA002F313D /* AppDelegate.swift */,
 				84A0E49B1E68BDCA002F313D /* ViewController.swift */,
 				84A0E49D1E68BDCA002F313D /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					84A0E4951E68BDCA002F313D = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2TRSY42B5K;
 						ProvisioningStyle = Automatic;
 					};
 					84A0E4A91E68BDCA002F313D = {
@@ -261,6 +265,7 @@
 			files = (
 				84A0E49C1E68BDCA002F313D /* ViewController.swift in Sources */,
 				84A0E49A1E68BDCA002F313D /* AppDelegate.swift in Sources */,
+				84A0E4C81E68BE00002F313D /* AKPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TRSY42B5K;
 				INFOPLIST_FILE = DOFCalcHorz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamwayland.DOFCalcHorz;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2TRSY42B5K;
 				INFOPLIST_FILE = DOFCalcHorz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamwayland.DOFCalcHorz;
