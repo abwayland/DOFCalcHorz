@@ -125,7 +125,11 @@ class ViewController: UIViewController, AKPickerViewDelegate, AKPickerViewDataSo
     
     func pickerView(_ pickerView: AKPickerView, titleForItem item: Int) -> String {
         if pickerView == pickerView1 {
-            return String(format: "f/%.01f", self.fStopArr[item])
+            if floor(fStopArr[item]) == fStopArr[item] {
+                return String(format: "f/%d", Int(self.fStopArr[item]))
+            } else {
+                return String(format: "f/%.1f", self.fStopArr[item])
+            }
         } else if pickerView == pickerView2 {
             return String(format: "%dmm", self.focalLengthArr[item])
         } else {
